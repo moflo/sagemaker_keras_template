@@ -138,7 +138,7 @@ def main(train_inst):
                         py_version='py3',
                         script_mode=True)
 
-   print('\nBegining training eith parameters {}...'.format(hyperparameters))
+   print('\nBegining training with parameters {}...'.format(hyperparameters))
 
    local_estimator.fit(inputs)
 
