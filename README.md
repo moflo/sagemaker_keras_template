@@ -4,7 +4,7 @@ Template to run Keras examples (eg., CIFAR10) using AWS Sagemaker and the new `S
 ## Usage
 
 ```
-python3 cifar10_keras_sage_train.py --help
+python3 cifar10_keras_sage_main.py --help
 ```
 
 Options are provided to run the Keras model on the local machine, without Sagemaker, to test the refactoring of the Keras examples. Running locally with Sagemaker in either the 'local' or 'local-gpu' mode is also supported, as well as running remote jobs on Sagemaker by specifying an instance type, eg. 'ml.m5.4xlarge'.
