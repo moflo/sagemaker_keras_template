@@ -65,4 +65,8 @@ Recommendations from Sagemaker SDK examples also caused errors at the end of run
     
 Depreciation warning: simple_save (from tensorflow.python.saved_model.simple_save) is deprecated and will be removed in a future version.
 ```
-4. Formatted with [Black](https://black.readthedocs.io/en/latest/)
+
+# TODO
+1. Format with [Black](https://black.readthedocs.io/en/latest/) and test again
+2. Fix `save_model` error
+3. Add an example to show how to deploy the model to production
