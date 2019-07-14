@@ -1,5 +1,5 @@
 '''
-# CIFAR10 SageMaker Keras Training Fuction.
+# CIFAR10 SageMaker Keras Training Function.
 
 Use the SageMaker SDK Script syntax to train a Keras CNN.
 
