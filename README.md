@@ -12,14 +12,19 @@ Options are provided to run the Keras model on the local machine, without Sagema
 ## Options
 
 
-- `python3 cifar10_keras_sage_train.py --train-inst test`
+- `python3 cifar10_keras_sage_main.py --train-inst test`
+  
   This will run the Keras CIFAR10 demo training locally on the host machine. Requires `python3`, `tensorflow` and `keras` to be installed locally.
 
-- `python3 cifar10_keras_sage_train.py --train-inst local`
+- `python3 cifar10_keras_sage_main.py --train-inst local`
+  
   This will run the Keras CIFAR10 demo training within a Docker container on the host machine. Requires `docker` and `sagemaker` to be installed.
 
-- `python3 cifar10_keras_sage_train.py --train-inst ml.m5.4xlarge`
-  This will run the Keras CIFAR10 demo training on AWS Sagemaker with a default of `1` training instance count. Options for the taining instance currently include: `[ml.p2.xlarge, ml.m5.4xlarge, ml.m4.16xlarge, ml.p3.16xlarge, ml.m5.large, ml.p2.16xlarge, ml.c4.2xlarge, ml.c5.2xlarge, ml.c4.4xlarge, ml.c5.4xlarge, ml.c4.8xlarge, ml.c5.9xlarge, ml.c5.xlarge, ml.c4.xlarge, ml.c5.18xlarge, ml.p3.2xlarge, ml.m5.xlarge, ml.m4.10xlarge, ml.m5.12xlarge, ml.m4.xlarge, ml.m5.24xlarge, ml.m4.2xlarge, ml.p2.8xlarge, ml.m5.2xlarge, ml.p3.8xlarge, ml.m4.4xlarge]`
+- `python3 cifar10_keras_sage_main.py --train-inst ml.m5.4xlarge`
+  
+  This will run the Keras CIFAR10 demo training on AWS Sagemaker with a default of `1` training instance count. 
+  
+  Options for the taining instance currently include: `[ml.p2.xlarge, ml.m5.4xlarge, ml.m4.16xlarge, ml.p3.16xlarge, ml.m5.large, ml.p2.16xlarge, ml.c4.2xlarge, ml.c5.2xlarge, ml.c4.4xlarge, ml.c5.4xlarge, ml.c4.8xlarge, ml.c5.9xlarge, ml.c5.xlarge, ml.c4.xlarge, ml.c5.18xlarge, ml.p3.2xlarge, ml.m5.xlarge, ml.m4.10xlarge, ml.m5.12xlarge, ml.m4.xlarge, ml.m5.24xlarge, ml.m4.2xlarge, ml.p2.8xlarge, ml.m5.2xlarge, ml.p3.8xlarge, ml.m4.4xlarge]`
 
 
 ## Prerequisites
