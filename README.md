@@ -1,5 +1,5 @@
 # Sagemaker Keras Template
-Template to run Keras examples (eg., CIFAR10) using AWS Sagemaker and the new `Script` API, with local testing methods. This approach refactors the Keras demo into a Sagemaker compatible `train.py` and `model.py` file, and uses local training data, downloaded using `keras.datasets.cifar10.load_data()` method and saved locally. Executing on either a hosted Docker container or on AWS Sagemaker requires the data to be uploaded to S3. This template provides a method for efficiently uploading the Keras data to an S3 bucket.
+Template to run Keras examples (eg., CIFAR10) using AWS Sagemaker and the new `Script` API, with local testing methods. This approach refactors the Keras demo into a Sagemaker compatible `train.py` and `model.py` file, and uses local training data, downloaded using `keras.datasets.cifar10.load_data()` method and saved locally. Executing on either a hosted Docker container or on AWS Sagemaker requires the data to be uploaded to S3. This template provides a method for efficiently uploading the Keras data to an S3 bucket after testing locally to identify bugs.
 
 ## Usage
 
