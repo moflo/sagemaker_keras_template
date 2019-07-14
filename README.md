@@ -38,6 +38,10 @@ Use of this Python script requires both specific host software and AWS account c
 - AWS CLI (recommend you install with `pip3 install awscli` and configure with `aws configuration` to set s3 defaults)
 - Docker (optional, but required if you're using the `--train-inst local` modes)
 
+## AWS Results
+
+The AWS Sagemaker training output can be found in both the S3 buckets as well as the `CloudWatch` training logs. And all Sagemaker training runs are summarized in the `Training Jobs` dashboard.
+
 ## Errata
 
 1. The test mode (`--train-inst test`) needs to be run at least once in order to download the Keras cifar10 data
