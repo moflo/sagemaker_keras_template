@@ -69,6 +69,8 @@ Recommendations from Sagemaker SDK examples also caused errors at the end of run
              outputs={t.name: t for t in model.outputs})
     
 Depreciation warning: simple_save (from tensorflow.python.saved_model.simple_save) is deprecated and will be removed in a future version.
+
+AWSLabs uses a TF Builder which might be a solution to the above issue, [here:](https://github.com/awslabs/amazon-sagemaker-examples/blob/e8a16724cc22998c1d3ea4bc6ef15dcb02820668/sagemaker-python-sdk/keras_script_mode_pipe_mode_horovod/source_dir/cifar10_keras_main.py#L199)
 ```
 
 # TODO
